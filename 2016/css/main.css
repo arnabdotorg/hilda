@@ -18,6 +18,11 @@ time, mark, audio, video {
   background: transparent;
 }
 
+img.sponsor{
+	float:left;
+	padding:20px;
+}
+
 html, body {
   font-size: 100%;
 }
