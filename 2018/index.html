@@ -10,6 +10,14 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<title>HILDA 2018: Workshop on Human-In-the-Loop Data Analytics</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	if (!window.jQuery) 
+	{
+	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
+	}
+	</script>
+
 
 </head>
 <body>
@@ -177,142 +185,413 @@
 		</section>			
 
 
-<!--	<section class="row">
-			<div class="col-full">
-				<h2>Keynotes</h2>
-				<p><a name="mike"></a><strong>A Two-Handed Future for Human-In-The-Loop Data Analytics</strong> &mdash; Michael Cafarella, University of Michigan
-					<ul>
-				<li><strong>Abstract:</strong> The amount of research using human-in-the-loop methods has exploded over the last few years. Moreover, it has done so across many different subfields of computing, including data analytics, general-purpose data management, human-computer interaction, and others. Almost as impressive as the number of projects is the sheer breadth of methods that fall under the human-in-the-loop label. By drawing on human-in-the-loop examples from data analytics, program synthesis, and information extraction, I will propose that humans in these projects usually serve one of two roles: to specify correctness, or to specify a search space. Further, it may be possible to build generic and reusable human-in-the-loop software primitives that enable these two goals.</li>
-				<li>
-				<strong>Bio:</strong> Michael Cafarella is an Associate Professor of Computer Science and Engineering at the University of Michigan. His research interests include databases, information extraction, data integration, and data mining. Mike received his PhD from the University of Washington, Seattle, in 2009 with advisors Oren Etzioni and Dan Suciu. He received the NSF CAREER award in 2011 and a Sloan Research Fellowship in 2016. In addition to his academic work, he costarted (with Doug Cutting) the Hadoop open-source project, which is widely used at Facebook, Twitter, and elsewhere. In 2015, he cofounded (with Chris Re and Feng Niu) Lattice Data, Inc.
-			</li>
-		</ul>
-				</p>
-				<br/><br/>
-
-				<p><a name="ben"></a><strong>Information Visualization for Knowledge Discovery: Big Insights from Big Data</strong> &mdash; Ben Shneiderman, University of Maryland<ul>
-				<li>
-					<strong>Abstract:</strong> Interactive information visualization tools provide researchers with remarkable capabilities to support discovery from Big Data resources. Users can begin with an overview, zoom in on areas of interest, filter out unwanted items, and then click for details-on-demand. The Big Data initiatives and commercial success stories, plus widespread use by prominent sites such as the New York Times have made visualization a key technology. The central theme is the integration of statistics with visualization to support user discovery.  Our work focuses on temporal event sequences such as found in electronic health records (www.cs.umd.edu/hcil/eventflow), and social network data such a twitter discussion patterns (www.codeplex.com/nodexl).  The talk closes with 8 Golden Rules for Big Data.
-				</li>
-				<li>
-				<strong>Bio:</strong> Ben Shneiderman (http://www.cs.umd.edu/~ben) is a Distinguished University Professor in the Department of Computer Science, Founding Director (1983-2000) of the Human-Computer Interaction Laboratory (http://www.cs.umd.edu/hcil/), and a Member of the UM Institute for Advanced Computer Studies (UMIACS) at the University of Maryland.  He is a Fellow of the AAAS, ACM, IEEE, and NAI, and a Member of the National Academy of Engineering, in recognition of his pioneering contributions to human-computer interaction and information visualization. His contributions include the direct manipulation concept, clickable highlighted web-links, touchscreen keyboards, dynamic query sliders, development of treemaps, novel network visualizations for NodeXL, and temporal event sequence analysis for electronic health records.
-
-				Shneiderman is the co-author with Catherine Plaisant of Designing the User Interface: Strategies for Effective Human-Computer Interaction (6th ed., 2016) http://www.awl.com/DTUI/.  With Stu Card and Jock Mackinlay, he co-authored Readings in Information Visualization: Using Vision to Think (1999).    He co-authored, Analyzing Social Media Networks with NodeXL (www.codeplex.com/nodexl) (Morgan Kaufmann) with Derek Hansen and Marc Smith.  Shneiderman’s latest book is The New ABCs of Research: Achieving Breakthrough Collaborations (Oxford, 2016) (www.cs.umd.edu/hcil/newabcs).
-			</li>
-		</ul>
-				</p>
-			</div>
-
-	</section>
-
-
-
-    	<section class="row">
-			<div class="col-full"><a name="accepted"></a>
-				<h2>Program / Schedule (Room: Continental A)</h2>
-
-    <p>9:00-9:10 &nbsp;  &nbsp;  &nbsp; Opening</p>
-
-                <p>9:10-10:00 &nbsp;  &nbsp;  &nbsp; <h5>Keynote: <em><strong>Michael Cafarella</strong></em></h5></p>
-
-    <p><strong>10:00-10:30 &nbsp;  &nbsp;  &nbsp; Session 1: "Assisted Data Discovery"</strong> <em>Session Chair: Eugene Wu</em>
-    <ul>
-        <li><u><b>Yannis Katsis</b></u>, Nikos Koulouris, Yannis Papakonstantinou and Kevin Patrick.<br />
-            <em><strong><h6>Assisting Discovery in Public Health (Distinguished Long Talk)</h6></strong></em>&nbsp;</li>
-
-        <li>Yue Guo, Carsten Binnig and Tim Kraska.<br />
-        <em>What you see is not what you get! Detecting Simpson's Paradoxes during Data Exploration</em><br />&nbsp;</li>
-    </ul>
-    </p>
-    <p>10:30-11:00 &nbsp;  &nbsp;  &nbsp; Break</p>
-
-    <p><strong>11:00-12:00 &nbsp;  &nbsp;  &nbsp; Session 2: "Simplifying Machine Learning"</strong> <em>Session Chair: Yannis Papakonstantinou</em>
-    <ul>	<li><u><b>Ce Zhang</b></u>, Wentao Wu and Tian Li.<br />
-        <em><strong><h6>An Overreaction to the Broken Machine Learning Abstraction: The ease.ml Vision	 (Distinguished Long Talk)</h6></strong></em>&nbsp;</li>
-
-        <li>Sanjay Krishnan and Eugene Wu.<br />
-        <em>PALM: Machine Learning Explanations For Iterative Debugging	</em><br />&nbsp;</li>
-
-        <li>Paroma Varma, Dan Iter, Christopher De Sa and Christopher Ré.<br />
-        <em>Flipper: A Systematic Approach to Debugging Training Sets	</em><br />&nbsp;</li>
-
-        <li>Paolo Tamagnini, Josua Krause, Aritra Dasgupta and Enrico Bertini.<br />
-        <em>Interpreting Black-Box Classifiers Using Instance-Level Visual Explanations	</em><br />&nbsp;</li>
-    </ul>
-    </p>
-
-    <p><strong>12:00-12:30 &nbsp;  &nbsp;  &nbsp; Session 3: "Tools and Workflows"</strong> <em>Session Chair: Alan Fekete</em>
-    <ul>
-        <li>Hui Miao, Amit Chavan and <u><b>Amol Deshpande</b></u>.<br />
-            <em><strong><h6>ProvDB: Lifecycle Management of Collaborative Analysis Workflows	(Distinguished Long Talk)</h6></strong></em>&nbsp;</li>
-
-        <li>Alexandr A. Kalinin, Selvam Palanimalai and Ivo D. Dinov.<br />
-        <em>SOCRAT Platform Design: A Web Architecture for Interactive Visual Analytics Applications </em><br />&nbsp;</li>
-
-    </ul>
-    </p>
+<style>
+  li.paper {
+  }
+  p.session {
+    margin-top: 1em;
+  }
+  span.time {
+    width: 15ex;
+    text-align: left;
+  }
+  span.authors {
+    display: block;
+    font-size: smaller;
+  }
+  span.title {
+    display: block;
+    font-weight: bold;
+  }
+  span.toggle {
+    font-size: 10pt;
+    display: block;
+    cursor: pointer;
+  }
+  span.toggle:hover {
+    text-decoration: underline;
+  }
+  span.abstract {
+  }
+</style>
 
 
-    <p>12:30-14:00 &nbsp;  &nbsp;  &nbsp; Lunch</p>
+ <section class='row'>
+   <div class="col-full">
 
-<p>14:00-14:50 &nbsp;  &nbsp;  &nbsp; <h5>Keynote: <em><strong>Ben Shneiderman</strong></em></h5></p>
+      <p class='session'>
+        <span class='time'>8:00-8:10</span>
+        <span class='sessiontitle'>Opening</span>
+      </p>
+<ul>
 
-    <p>
-    <strong>14:50-15:30 &nbsp;  &nbsp;  &nbsp; Session 4: "User Interfaces and Intent"</strong> <em>Session Chair: Amol Deshpande</em>
-    <ul>
-        <li>
-        <u><b>Dominik Moritz</b></u> and <u><b>Danyel Fisher</b></u>. <br />
-            <em><strong><h6>What Users Don't Expect about Exploratory Data Analysis on AQP Systems (Distinguished Long Talk)</h6></strong>	</em>&nbsp;
-        </li>
+</ul>
 
-        <li>
-        Haoci Zhang, Thibault Sellam and Eugene Wu. <br />
-        <em>Precision Interfaces	</em><br />&nbsp;
-        </li>
-        <li>
-        Dharmil Chandarana, Vraj Shah, Arun Kumar and Lawrence Saul. <br />
-        <em>SpeakQL: Towards Speech-driven Multi-modal Querying	</em><br />&nbsp;
-        </li>
-    </ul>
-    </p>
-    <p>15:30-16:00 &nbsp;  &nbsp;  &nbsp; Break</p>
+      <p class='session'>
+        <span class='time'>8:10-9:00</span>
+        <span class='sessiontitle'>Keynote</span>
+      </p>
+<ul>
 
-    <p>
-    <strong>16:00-16:50 &nbsp;  &nbsp;  &nbsp; Session 5: "Collaboration and Feedback"</strong> <em>Session Chair: Arun Kumar</em>
-    <ul>
-        <li>
-        <u><b>Anhai Doan</b></u>, Adel Ardalan, Jeffrey Ballard, Yash Govind, Pradap Konda, Han Li, Sidharth Mudgal, Erik Paulson, Paul Suganthan G.C. and Haojun Zhang. <br />
-            <em><strong><h6>Human-in-the-Loop Challenges for Entity Matching: A Midterm Report	(Distinguished Long Talk)</h6></strong></em>&nbsp;
-        </li>
+</ul>
 
-        <li>
-        Nurzety Azuan, Suzanne Embury and Norman Paton. <br />
-        <em>Observing the Data Scientist: Using Manual Corrections As Implicit Feedback	</em><br />&nbsp;
-        </li>
-
-        <li>
-        John Wenskovitch and Chris North. <br />
-        <em>Observation-Level Interaction with Clustering and Dimension Reduction Algorithms	</em><br />&nbsp;
-        </li>
-
-        <li>
-        Ben McCamish, Arash Termehchy and Behrouz Touri. <br />
-        <em>A Game-theoretic Approach to Data Interaction: A Progress Report	</em><br />&nbsp;
-        </li>
-    </ul>
-    </p>
-
-    <p>
-        <strong> 16:50-18:00 &nbsp;  &nbsp;  &nbsp; Poster / Demo Session (All Papers) </strong>
-    </p>
-
-    <p>19:30-21:00 &nbsp;  &nbsp;  &nbsp; Dinner in small groups (Organization: <a href="https://goo.gl/rxrcM1">https://goo.gl/rxrcM1</a>, Meet: 19:15 in the hotel lobby) </p>
+      <p class='session'>
+        <span class='time'>9:00-10:30</span>
+        <span class='sessiontitle'>Session 1: Visual Interactive Exploration</span>
+      </p>
+<ul>
 
 
-                </div>
+      <li class='paper'>
+        <span class='title'> Human-in-the-Loop Data Analysis: A Personal Perspective.</span>
+        <span class='authors'>Anhai Doan (University of Wisconsin-Madison)</span>
+        <span id='toggle_20' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_20").click(function() {
+            $("#abstract_20").toggle()
+          });
+        })
+        </script>
+      
 
-        </section>
- -->  
+        <span style='display:none' class='abstract' id="abstract_20">In the past few years human-in-the-loop data analysis (HILDA) has received significant growing attention. Most HILDA works have focused on concrete problems. In this paper I take a step back and discuss several ``big picture'' questions regarding HILDA.  First, I discuss problems that I believe should fall under the scope of the field, including some that have received little attention, such as fostering user communities that develop data repositories and tools. Next, I discuss important aspects in developing HILDA solutions that I believe should receive more attention. These include solving problems that real users care about, developing how-to guides to users, building end-to-end systems (such as extending the ``Pandas system''), developing benchmarks and challenges, and developing a theory of human data interaction.  Finally, I speculate about the future of the field, and discuss the dangers it can face, given that many other communities are also working on related problems. I argue that a focus on end-to-end problems and system building is important for us to thrive and make significant impacts.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> ViDeTTe Interactive Notebooks.</span>
+        <span class='authors'>Costas Zarifis (University of California San Diego)</span>
+        <span id='toggle_12' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_12").click(function() {
+            $("#abstract_12").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_12">Interactive notebooks allow the use of popular languages, such as python, for composing data analytics projects. The interface they provide, enables data scientists to import data, analyze them and compose the results into easily readable report-like web pages, that can contain re-runnable code, visualizations and textual description of the entire process, all in one place. Scientists can then share such pages with other users in order to present their findings, collaborate and further explore the underlying data.  However, as we show in this work, interactive notebooks lack in interactivity and ease of use, both for the data scientist that composes the notebook and, even more so, for the reader of the published notebook. First, utilizing libraries that obtain, process and visualize data, requires technical expertise that often exceeds the skill-set of a typical data scientist. Second, while the user interface allows readers to rerun or extend the code included in the notebook, it does not allow them to directly interact with the generated visualizations in order to trigger additional computation and further explore the underlying data. This means that only code-literate readers can further interact with and extend such notebooks, while the rest can only passively read the provided report.  To address these issues, we propose ViDeTTe, an engine that enhances interactive notebooks with capabilities that benefit both data scientists and non-technical notebook readers. ViDeTTe uses a declarative language to simplify data retrieval and data visualization for analysts. The generated visualizations are capable of collecting the reader's input and reacting to it. Additionally, the user input is utilized by ViDeTTe's propagation algorithm, to identify subsequent parts of the notebook that depend on it and cause their reevaluation. By doing this, ViDeTTe offers enhanced data exploratory capabilities to readers, without requiring any coding skills.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Towards a Unified Representation of Insight in Human-in-the-Loop Analytics: A User Study.</span>
+        <span class='authors'>Eser Kandogan (IBM) and Ulrich Engelke (CSIRO)</span>
+        <span id='toggle_8' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_8").click(function() {
+            $("#abstract_8").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_8">Understanding what insights people draw from data visualizations is critical for human-in-the loop analytics systems to facilitate mixed-initiative analysis. In this paper we present results from a large user study on insights extracted from commonly used charts. We report several patterns of insights we observed and analyze their semantic structure to identify key considerations towards a unified formal representation of insight, human or computer generated. We also present a model of insight generation process, where humans and computers work cooperatively, building on each other's knowledge, where a common representation acts as the currency of interaction. While not going as far as proposing a formalism, we pointed to a few potential directions for representing insight. We believe our findings could also inform the design of novel human-in-the-loop analytics systems.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Evaluating Visual Data Analysis Systems: A Discussion Report.</span>
+        <span class='authors'>Leilani Battle (University of Washington), Marco Angelini (Sapienza University of Rome), Carsten Binnig (TU Darmstadt), Tiziana Catarci (Sapienza University of Rome), Philipp Eichmann (Brown University), Jean-Daniel Fekete (INRIA), Giuseppe Santucci (Sapienza University of Rome), Michael Sedlmair (Jacobs University Bremen) and Wesley Willett (University of Calgary)</span>
+        <span id='toggle_10' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_10").click(function() {
+            $("#abstract_10").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_10">Visual data analysis is a key tool for helping people to make sense of and interact with massive data sets. However, existing evaluation methods (e.g., database benchmarks, individual user studies) fail to capture the key points that make systems for visual data analysis (or visual data systems) challenging to design.  In November 2017, members of both the Database and Visualization communities came together in a Dagstuhl seminar to discuss the grand challenges in the intersection of data analysis and interactive visualization.  In this paper, we report on the discussions of the working group on the evaluation of visual data systems, which addressed questions centered around developing better evaluation methods, such as "How do the different communities evaluate visual data systems?" and "What we could learn from each other to develop evaluation techniques that cut across areas?".  In their discussions, the group brainstormed initial steps towards new joint evaluation methods and developed a first concrete initiative - a trace repository of various real-world workloads and visual data systems - that enables researchers to derive evaluation setups (e.g., performance benchmarks, user studies) under more realistic assumptions, and enables new evaluation perspectives (e.g., broader meta analysis across analysis contexts, reproducibility and comparability across systems).
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Visual Exploration of Deep Learning Models in Industry.</span>
+        <span class='authors'>Minsuk Kahng (Georgia Institute of Technology), Pierre Andrews (Facebook), Aditya Kalro (Facebook) and Duen Horng Chau (Georgia Institute of Technology)</span>
+        <span id='toggle_23' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_23").click(function() {
+            $("#abstract_23").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_23">While deep learning has led to major breakthroughs in various domains, understanding these models remains a challenge. Despite the increasing interest in developing visualization tools for deep learning interpretation, the complexity of large-scale models and datasets used in industry pose unique design challenges. It motivates us to design and develop ActiVis, a visual analytics system for deep neural network models, now deployed on Facebook's machine learning platform. With ActiVis, users can get a high-level overview of a model and drill down into its activations at both instance- and subset-level.  Our one-page abstract has been uploaded to the system. This abstract paper is a summary for the paper presented at the IEEE VIS'17 conference, titled "ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models."
+</span>
+      </li>
+      
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>10:30-11:00</span>
+        <span class='sessiontitle'>Coffee Break</span>
+      </p>
+<ul>
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>11:10-12:30</span>
+        <span class='sessiontitle'>Session 2: Engines and Languages</span>
+      </p>
+<ul>
+
+
+      <li class='paper'>
+        <span class='title'> DIVE: A Mixed-Initiative System Supporting Integrated Data Exploration Workflows.</span>
+        <span class='authors'>Kevin Hu (Massachusetts Institute of Technology), Diana Orghian (Massachusetts Institute of Technology) and César Hidalgo (Massachusetts Institute of Technology)</span>
+        <span id='toggle_6' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_6").click(function() {
+            $("#abstract_6").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_6">Generating knowledge from data is an increasingly important activity. This process of data exploration consists of multiple tasks: data ingestion, visualization, statistical analysis, and storytelling. Though these tasks are complementary, analysts often execute them in separate, standalone tools. Moreover, these tools have steep learning curves due to their reliance on manual query specification. Here, we describe the design and implementation of DIVE, a web-based system that integrates state-of-the-art data exploration features into a single tool. DIVE contributes a mixed-initiative interaction scheme that combines recommendation with point-and-click manual specification, and a consistent visual language that unifies different stages of the data exploration workflow.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Querying Videos Using DNN Generated Labels by Designing DSL driven UIs.</span>
+        <span class='authors'>Wu Yifan (University of California, Berkeley), Steven Drucker (Microsoft), Matthai Philipose (Microsoft) and Lenin Ravindranath (Microsoft)</span>
+        <span id='toggle_3' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_3").click(function() {
+            $("#abstract_3").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_3">Massive amounts of videos are generated for entertainment, security, and science, powered by a  growing supply of user-produced video hosting services.  Unfortunately, searching for videos is complicated due to the lack of content annotations.  While many have tackled this problem before, recent breakthroughs in image labeling with deep neural networks (DNNs) create a unique opportunity for re-imagining the querying of videos.  To exploit this opportunity, We introduce a new query language that operates on the output labels of DNNs trained for object recognition. By applying visualization techniques, we also create a graphical query interface that supports fast refinement of queries, which helps to overcome limitations in label consistency and accuracy.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Optimally Leveraging Density and Locality for Exploratory Browsing and Sampling.</span>
+        <span class='authors'>Albert Kim (Massachusetts Institute of Technology), Liqi Xu (University of Illinois Urbana-Champaign), Tarique Siddiqui (University of Illinois Urbana-Champaign), Silu Huang (University of Illinois Urbana-Champaign), Samuel Madden (Massachusetts Institute of Technology) and Aditya Parameswaran (University of Illinois Urbana-Champaign)</span>
+        <span id='toggle_18' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_18").click(function() {
+            $("#abstract_18").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_18">Exploratory data analysis often involves repeatedly browsing a small sample of records that satisfy certain predicates. However, existing database systems are not optimized for such queries. We propose a fast query evaluation engine, called NeedleTail, aimed at letting analysts browse a subset of the query result on large datasets as quickly as possible, independent of the overall size of the result. NeedleTail introduces density maps, a lightweight in-memory indexing structure, and a set of efficient and theoretically sound algorithms to quickly locate promising blocks, trading of locality and density. In settings where the samples are used to compute aggregates, we extend techniques from survey sampling to mitigate the bias in our samples. Our experimental results demonstrate that NeedleTail returns results 7× faster on average and can achieve the same error rate as random sampling but in much less time.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Source Selection Languages: A Usability Evaluation.</span>
+        <span class='authors'>Ixent Galpin (Universidad Jorge Tadeo Lozano), Edward Abel (The University of Manchester) and Norman Paton (The University of Manchester)</span>
+        <span id='toggle_7' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_7").click(function() {
+            $("#abstract_7").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_7">When looking to obtain insights from data, and given numerous possible data sources, there are certain quality criteria that retrieved data from selected sources should exhibit so as to be most fit-for-purpose. An effective source selection algorithm can only provide good results in practice if the requirements of the user have been suitably captured, and therefore, an important consideration is how users can effectively express their requirements.  In this paper, we carry out an experiment to compare user performance in two different languages for expressing user requirements in terms of data quality characteristics, pairwise comparison of criteria values, and single objective constrained optimization. We employ crowd-sourcing to evaluate, for a set of tasks, user ability to choose effective formulations in each language. The results of this initial study show that users were able to determine more effective formulations for the tasks using pairwise comparisons. However, user usability evaluations show that the languages were evaluated similarly in terms of subjective user preference.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Provenance for Interactive Visualizations.</span>
+        <span class='authors'>Fotis Psallidas (Columbia University) and Eugene Wu (Columbia University)</span>
+        <span id='toggle_13' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_13").click(function() {
+            $("#abstract_13").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_13">We highlight the connections between data provenance and interactive visualizations.  To do so, we first incrementally add interactions to a visualization and show how these interactions are readily expressible in terms of provenance.  We then describe how an interactive visualization system that natively supports provenance can be easily extended with novel interactions.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> A Visual Interaction Framework for Dimensionality Reduction Based Data Exploration.</span>
+        <span class='authors'>Marco Cavallo (IBM) and Cagatay Demiralp (IBM)</span>
+        <span id='toggle_24' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_24").click(function() {
+            $("#abstract_24").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_24">Dimensionality reduction is a common method for analyzing and visualizing high-dimensional data. However, reasoning dynamically about the results of a dimensionality reduction is difficult. Dimensionality-reduction algorithms use complex optimizations to reduce the number of dimensions of a dataset, but these new dimensions often lack a clear relation to the initial data dimensions, thus making them difficult to interpret.  Here we propose a visual interaction framework to improve dimensionality-reduction based exploratory data analysis. We introduce two interaction techniques, forward projection and backward projection, for dynamically reasoning about dimensionally reduced data. We also contribute two visualization techniques, prolines and feasibility maps, to facilitate the effective use of the proposed interactions.  We apply our framework to PCA and autoencoder-based dimensionality reductions. Through data-exploration examples, we demonstrate how our visual interactions can improve the use of dimensionality reduction in exploratory data analysis.
+</span>
+      </li>
+      
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>12:30-14:00</span>
+        <span class='sessiontitle'>Lunch</span>
+      </p>
+<ul>
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>14:00-15:30</span>
+        <span class='sessiontitle'>Session 3: Data Curation & Quality</span>
+      </p>
+<ul>
+
+
+      <li class='paper'>
+        <span class='title'>Beaver: Towards a Declarative Schema Mapping.</span>
+        <span class='authors'>Zhongjun Jin (University of Michigan), Christopher Baik (University of Michigan), Michael Cafarella (University of Michigan) and H V. Jagadish (University of Michigan). </span>
+        <span id='toggle_1' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_1").click(function() {
+            $("#abstract_1").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_1">Schema mapping describes how to transform data of the source schemas into the data of the target schema. Manually writing com- plete schema mapping speci cations requires a deep understanding of the source and target schema which can be burdensome for the user. Programming By Example (PBE) schema mapping systems have attempted to reduce this burden by allowing the user to declar- atively specify the schema mapping using a few sample records. However, specifying real records can sometimes be di cult for the user too, whereas the user might have other useful insights about the desired schema mapping. In this paper, we develop a new schema mapping technique, Beaver, that enables an interaction model that gives the user far more  exibility in describing the de- sired schema mapping. The end user is not limited to providing target schema examples but may also provide other types of de- scriptions, such as the data type or value range of target schema columns. Moreover, beyond constraining the target schema itself, the user can provide constraints for the schema mapping process. We propose a search algorithm with on-line pruning that e ciently solves the schema mapping problem. We implemented a prototype of our schema mapping technique and experimentally evaluated the e ciency of the system in handling traditional PBE schema map- ping test cases, as well as our newly-proposed declarative schema mapping test cases. The experiment results suggest that the end user can provide declarative queries which we believe are easier to input and retain a reasonable system e ciency as they have for traditional PBE queries.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> SchemaDrill: Interactive Semi-Structured Schema Design.</span>
+        <span class='authors'>William Spoth (University at Buffalo), Ting Xie (University at Buffalo), Oliver Kennedy (University at Buffalo), Dieter Gawlick (Oracle), Ying Yang (Oracle), Zhen Hua-Liu (Oracle) and Beda Hammerschmidt (Oracle)</span>
+        <span id='toggle_17' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_17").click(function() {
+            $("#abstract_17").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_17">Ad-hoc data models like Json make it easy to evolve schemas and to multiplex different data-types into a single stream.  This flexibility makes Json great for generating data, but also makes it much harder to query, ingest into a database, and index.  In this paper, we explore the first step of Json data loading: schema design.  Specifically, we consider the challenge of designing schemas for existing Json datasets as an interactive problem.  We present SchemaDrill, a roll-up/drill-down style interface for exploring collections of Json records.  SchemaDrill helps users to visualize the collection, identify relevant fragments, and map it down into one or more flat, relational schemas.  We describe and evaluate two key components of SchemaDrill: (1) A summary schema representation that significantly reduces the complexity of Json schemas without a meaningful reduction in information content, and (2) A collection of schema visualizations that help users to qualitatively survey variability amongst different schemas in the collection.  
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> What Type of a Matcher Are You? - Human and Algorithmic Matchers Coordination.</span>
+        <span class='authors'>Roee Shraga (Technion - Israel Institute of Technology), Avigdor Gal (Technion - Israel Institute of Technology) and Haggai Roitman (IBM Research - AI)</span>
+        <span id='toggle_2' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_2").click(function() {
+            $("#abstract_2").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_2">In this work we explore relationships between human and algorithmic schema matchers. We provide a novel approach to similar schema matchers termed \emph{coordinated matchers} and use it to predict future human matching choices. We show throughout a comprehensive analysis that human matchers are usually coordinated with intuitive algorithms, \emph{e.g.,} based on attribute name similarity, and frequently do not assign lower confidence levels, which indicates over confidence in their choices. Finally, we show that human choices can be reasonably predicted using collaborative algorithmic opinions based on matchers coordination.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Draining the Data Swamp: A Similarity-based Approach.</span>
+        <span class='authors'>Will Brackenbury (University of Chicago), Rui Liu (University of Chicago), Mainack Mondal (University of Chicago), Aaron Elmore (University of Chicago), Blase Ur (University of Chicago), Kyle Chard (University of Chicago) and Michael Franklin (University of Chicago)</span>
+        <span id='toggle_16' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_16").click(function() {
+            $("#abstract_16").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_16">While hierarchical namespaces such as filesystems and repositories have long been used to organize data, the rapid increase in data production places increasing strain on users who wish to make use of the data. So called “data lakes” embrace the storage of data in its natural form, integrating and organizing in a Pay-as-you-go fashion. While this model defers the upfront cost of integration, the result is that data is unusable for discovery or analysis until it is processed. Thus, data scientists are forced to spend significant time and energy on mundane tasks such as data discovery, cleaning, integration, and management – when this is neglected, “data lakes” become “data swamps.” Prior work suggests that pure computational methods for resolving issues with the data discovery and management components are insufficient. Here, we provide evidence to confirm this hypothesis, showing that methods such as automated file clustering are unable to extract the necessary features from repositories to provide useful information to end-user data scientists, or make effective data management decisions on their behalf. We argue that the combination of frameworks for specifying file similarity and human-in-the-loop interaction is needed to aid automated organization. We propose an initial step here, classifying several dimensions by which items may be considered similar: the data, its origin, and its current characteristics.  We initially consider this model in the context of identifying data that can be integrated or managed collectively. We additionally explore how current methods can be used to automate decision making using real-world data repository and file systems, and suggest how an online user study could be developed to further validate this hypothesis.
+</span>
+      </li>
+      
+
+      <li class='paper'>
+        <span class='title'> Interactive Visual Analytics for Simpson’s Paradox Detection.</span>
+        <span class='authors'>Chenguang Xu (University of oklahoma), Sarah Brown (University of California, Berkeley), Christan Grant (University of oklahoma) and Chris Weaver (University of Oklahoma)</span>
+        <span id='toggle_21' class='toggle'>(toggle abstract)</span>
+        <script>
+        $(function() {
+          $("#toggle_21").click(function() {
+            $("#abstract_21").toggle()
+          });
+        })
+        </script>
+      
+
+        <span style='display:none' class='abstract' id="abstract_21">When a trend is observed in aggregate data, Simpson’s paradox is the phenomenon that some or all of the partitions of a data set exhibit the opposite trend. Detecting Simpson’s paradox uncovers the anomaly in a data set, and helps us to make prudent data-driven decisions after looking deeper into the data. The analysis of Simpson’s paradox often requires the comparison of the trends between the whole population and the subpopulations. This comparison is typically the most complicated step of the analysis process, especially for data with high dimensions. We use the bivariate color scheme to accurately illustrate the relationship between the trend of the association in the whole population and within the subpopulations. We provide a novel visual analytics approach to facilitate the exploration of the data to detect Simpson’s paradox. The detection and analysis are tightly coupled by multiple coordinated views. Our multiple views provide users with not only an overview of the entire data set but also details when needed. The interactive features empowered user to do analyses effectively and efficiently. We will demonstrate that using our application, users are able to detect Simpson’s paradox and draw insights from data sets with confidence.
+</span>
+      </li>
+      
+
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>15:30-16:30</span>
+        <span class='sessiontitle'>Poster Session (Coffee Break)</span>
+      </p>
+<ul>
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>16:30-17:30</span>
+        <span class='sessiontitle'>Panel</span>
+      </p>
+<ul>
+
+</ul>
+
+      <p class='session'>
+        <span class='time'>17:30-18:00</span>
+        <span class='sessiontitle'>Closing Remarks</span>
+      </p>
+<ul>
+
+
+    </div>
+  </section>
 	<section class="row">
 			<div class="col-full">
 				<h2>Sponsors</h2>
@@ -341,14 +620,6 @@
 
  
 	</div>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script>
-	if (!window.jQuery) 
-	{
-	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
-	}
-	</script>
 
 	<script src="js/vendor/jquery.fluidbox.min.js"></script>
 	<script src="js/main.js"></script>
