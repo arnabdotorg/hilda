@@ -17,6 +17,12 @@
 	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
 	}
 	</script>
+	<style>
+    table { width: 100%; }
+    td { vertical-align: top; }
+    .image-cell { width: 170px; }
+    img { border:1px solid black; width: 100%; }
+    </style>
 
 
 </head>
@@ -51,18 +57,10 @@
 				<p>
 					The theme for this edition of the workshop is <b>commodifying human-in-the-loop data analytics</b>, however, the workshop is not limited to this theme and other topics are also of interest. Despite significant progress in human-in-the-loop approaches in recent years, many systems are still not ready for end-user consumption. We aim to provide guidelines and best practices for creating HILDA-as-a-Service systems that can be easily integrated into larger data ecosystems and used by different types of users in a plug-and-play fashion.
 				</p>
-
-  				<h2>Keynote Speakers</h2>
-				<p>Our exciting program will feature the following invited keynote speakers to talk about the challenges of human-data interaction.</p>
-				<ul class="topics">
-					<li><a href="https://faculty.washington.edu/billhowe/">Bill Howe</a>, Associate Professor, University of Washington</li>
-					<li><a href="https://yunyaoli.github.io/">Yunyao Li</a>, Head of Machine Learning, Apple Knowledge Platform</li>
-					<li><a href="https://amcrisan.github.io/">Anamari (Ana) Crisan</a>, Lead Research Scientist, Tableau</li>
-
-				</ul>  
 			</div>
 		</section>
 
+		
 		<section class="row">
 			<div class="col-full">
 				<h2>Program</h2>
@@ -93,6 +91,9 @@
 						font-size: smaller;
 						display: inline-block;
 						width: 50em
+					}
+					.speakers{
+						font-size: smaller;
 					}
 				</style>
 
@@ -242,11 +243,55 @@
 						</tr>
 					</tbody>
 				</table>
-
-				</ul>  
-
 			</div>
 		</section>
+
+		<section class="row">
+			<div class="col-full">
+
+  				<h2>HILDA 2023 Keynote Talks</h2>
+				<p>Our exciting program will feature the following invited keynote speakers to talk about the challenges of human-data interaction.</p>
+
+				<table> 
+					<tr>
+						<td class="image-cell">
+							<p><img src="img/billhowe.png" alt="Bill Howe" style="width:150px"></p>
+							<p><b><a href="https://faculty.washington.edu/billhowe/">Bill Howe</a></b>, Associate Professor, University of Washington</p>
+						</td>
+						<td>
+							<p><b>Title:</b> Curation as Programming: AI, Data Management, and Mediated Knowledge Interaction</p>
+							<p><b>Abstract:</b> AI advances have been concentrated in curation-on-read settings: LLMs are trained on massive, weakly curated convenience samples of the internet, while the output is assumed to be subject to careful human review and accountability on a per-instance basis. This regime shifts all responsibility to the end user to identify errors, biases, and compliance issues (e.g., intellectual property violations). There do exist successful AI applications in curation-on-write settings, typically in science: models trained on precise, objectively correct input in order to produce precise, objectively correct output.   For example, popular deep learning architectures are poised to outperform physics-based models to predict the weather, simultaneously learning the physics and the parameters directly from observations, without requiring fluid dynamics to be explicitly programmed. We are studying enabling technologies to reduce the cost of developing AI systems in these curation-on-write settings, characterized by limited data, complex multi-modal features, and ambiguous or conflicting labels.   As methods continue to be commoditized, costs are driven by finding and organizing training and evaluation data.  This perspective of “curation as programming” is an opportunity to design new tooling, particularly in HCI, to empower domain experts to build safer AI systems for specialized tasks in high-expertise settings. I’ll describe some projects my group is pursuing in this space including synthesizing data in urban settings, identifying speakers and agenda items in local council meetings, and extracting information from legal documents.  I’ll describe some general technical questions we encounter in these settings, including how best to use expert-provided ontologies and unlearning specific biases during fine-tuning. </p>
+							<p class="speakers"><b>Speaker Bio:</b> Bill Howe is Associate Professor in the Information School and Adjunct Associate Professor in the Allen School of Computer Science & Engineering and the Department of Electrical Engineering. His research interests are in data management, machine learning, and visualization, particularly as applied in the physical and social sciences. As Founding Associate Director of the UW eScience Institute, Dr. Howe played a leadership role in the Moore-Sloan Data Science Environment program through a $32.8 million grant awarded jointly to UW, NYU, and UC Berkeley, and founded UW’s Data Science for Social Good Program. With support from the MacArthur Foundation, NSF, and Microsoft, Howe directs UW’s participation in the Cascadia Urban Analytics Cooperative. He founded the UW Data Science Masters Degree, serving as its inaugural Program Chair, and created a first MOOC on data science that attracted over 200,000 students. His research has been featured in the Economist and Nature News, and he has authored award-winning papers in conferences across data management, machine learning, and visualization. He has a Ph.D. in Computer Science from Portland State University and a Bachelor’s degree in Industrial & Systems Engineering from Georgia Tech.</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p><img src="img/anacrisan.jpeg" alt="Anamari (Ana) Crisan" style="width:150px"></p>
+							<p><b><a href="https://amcrisan.github.io/">Anamari (Ana) Crisan</a></b>, Lead Research Scientist, Tableau</p>
+						</td>
+						<td>
+							<p><b>Title:</b> Scaling data-driven Decision-making through Human-AI Interaction</p>
+							<p><b>Abstract:</b> Decision-making with data is primarily conducted by professionals lacking formal training in data science, statistics, or machine learning. Aiding these professionals are emerging  technologies supported by machine learning (ML) and/or artificial intelligence (AI) techniques that automate many aspects of data work. However, this collaboration between humans and AI/ML  technology is far from frictionless and can produce incorrect or misleading results. In this talk I discuss a human-centered approach for ML/AI that aims to address these limitations. I will ground this discussion in human factors studies, techniques, and tools for supporting human-ML/AI interaction (HAI)  in the context of data discovery and analysis. I will contrast existing approaches along the dimensions of user, data, and model centric paradigms. Finally, I will propose a forward looking research approach to developing trustworthy and responsible HAI techniques for a broad analyst population. </p>
+							<p><b>Speaker Bio:</b> Anamaria (Ana) Crisan is a Lead Research Scientist at Tableau, where she drives a multidisciplinary research agenda for human-ML/AI interaction that occupies the intersection of applied machine learning, human computer interaction, and data visualization. She completed her Ph.D. in 2019 as a Vanier scholar at the University of British Columbia under the joint supervision of Drs. Tamara Munzner and Jennifer Gardy. Her doctoral research focused on visualization of genomic epidemiological data. Prior to her doctorate, she led research initiatives for personalized cancer care and public health genomics.  Her research has appeared in top-tier biomedical journals (Nature, Bioinformatics) as well as conferences of the ACM (CHI, FAccT) and IEEE, has won paper awards (CHI, VDS), contributed to the open source ecosystem, and resulted in patents for ML backed products in use today.</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p><img src="img/YunyaoLi.jpg" alt="Yunyao Li" style="width:150px"></p>
+							<p><b><a href="https://yunyaoli.github.io/">Yunyao Li</a></b>, Head of Machine Learning, Apple Knowledge Platform</p>
+							</td>
+						<td>
+							
+							<p><b>Title:</b> Building, Growing and Serving Large Knowledge Graphs with Human-in-the-Loop</p>
+							<p><b>Abstract:</b> The ability to build large-scale knowledge bases that capture and extend the implicit knowledge of human experts is the foundation for many AI systems. We use an ontology-driven approach for the building, growing and serving of such knowledge bases. This approach relies on several well-known building blocks: document conversion, natural language processing, entity resolution, data transformation and fusion. In this talk, I will discuss wide range of real-world challenges related to the building of these blocks and present our work to address these challenges via better human-machine cooperation.</p>
+							<p><b>Speaker Bio:</b> Yunyao Li is the Head of Machine Learning, Apple Knowledge Platform, where her team builds the next-generation machine learning solutions to help power features such as Siri and Spotlight. Previously she was a Distinguished Research Staff Member and Senior Research Manager at IBM Research - Almaden, leading the building and delivery of core language technologies to over 20 IBM products and solutions. She also co-led the IBM-Stanford HAI partnership. Her technical contributions span the areas of natural language processing (NLP) , data management, information retrieval, and human computer interaction. In these areas, she has published over 100 publications, including a book, and had more than 50 patent granted/filed. She is an ACM Distinguished Member.  She is a member of the New Voices program of the US National Academies.  She was an IBM Technology Academy Member and a Master Inventor.  She has served the NLP and database communities with distinction and regularly serves as organizer and senior committee member for top conferences and editorial board member. She is currently an elected member of NAACL Executive Board. She received her undergraduate degrees from Tsinghua University, and her masters and Ph.D. in Computer Science from the University of Michigan - Ann Arbor.</p>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+		</section>
+
 
 
 		<section class="row">
