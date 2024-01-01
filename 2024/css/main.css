@@ -283,7 +283,7 @@ a {
 }
 a:hover {
   color: red;
-  border-color: #008083;
+  border-color: #B05B3B;
 }
 a:active, a:focus {
   color: #c2c2b5;
@@ -332,11 +332,11 @@ body {
 }
 
 a {
-  border-bottom: 1px solid #008083;
+  border-bottom: 1px solid #B05B3B;
 }
 
 a:hover {
-  color: #008083;
+  color: #B05B3B;
 }
 
 header {
@@ -344,7 +344,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
-  border-top: 2px solid #008083;
+  border-top: 2px solid #B05B3B;
   opacity: 0;
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
@@ -397,22 +397,22 @@ header #logo-container #logo {
   float: none;
 }
 header #logo-container #subtitle {
-  color: #008083;
+  color: #B05B3B;
   font-weight: bold;
   font-size: 18px;
 }
 header a {
-  color: #008083;
+  color: #B05B3B;
   text-decoration: none;
   border: none;
 }
 header a:hover {
-  color: #008083;
-  border-color: #008083;
+  color: #B05B3B;
+  border-color: #B05B3B;
 }
 header a:active, header a:focus {
-  color: #008083;
-  border-color: #008083;
+  color: #B05B3B;
+  border-color: #B05B3B;
 }
 header nav {
   text-align: right;
@@ -459,7 +459,7 @@ header nav ul li a.bordered {
   padding: 0.4em;
   padding-left: 0.8em;
   padding-right: 0.8em;
-  border: 2px solid #008083;
+  border: 2px solid #B05B3B;
 }
 
 #content {
@@ -545,7 +545,7 @@ header nav ul li a.bordered {
   text-transform: uppercase;
   font-size: 1.0em;
   font-weight: bold;
-  color: #008083;
+  color: #B05B3B;
   margin-bottom: 0.05em;
   margin-top: 0.5em;	
 }
@@ -667,7 +667,7 @@ header nav ul li a.bordered {
 
 .topics li::before{
   content: "\25CF";
-  color: #008083; /* Change the color */
+  color: #B05B3B; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.2em; /* Also needed for space (tweak if needed) */
