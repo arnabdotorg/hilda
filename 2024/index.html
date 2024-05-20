@@ -50,7 +50,6 @@
 
 		<section class="row">
 			<div class="col-full">
-				<p style="color:red"><b>The submission deadline is extended to April 15. </b></p>
 				<p>
 					HILDA brings together researchers and practitioners to exchange ideas and results on <b>human-data interaction</b>. It explores how data management and analysis can be made more effective when taking into account the people who design and build these processes as well as those who are impacted by their results.
 				</p>
@@ -61,23 +60,14 @@
 					The theme for this edition of the workshop is <b>HILDA and Large Language Models (LLMs)</b>, however, the workshop is not limited to this theme and other topics are also of interest. We encourage research on guidelines and best practices for effective human-LLM collaboration. We also encourage research that questions the role of humans in traditional data pipelines with the emergence of LLMs.
 				</p>
 
-				<h2>Keynote Speakers</h2>
+				<!--<h2>Keynote Speakers</h2>
 				<p>Our exciting program will feature the following keynote speakers:</p>
 				<ul>
 					<li><a href="https://people.csail.mit.edu/kraska/">Tim Kraska</a>, Associate Professor, MIT; Director of Applied Science, AWS</li>
 					<li><a href="https://www.khoury.northeastern.edu/people/renee-miller/">Renée Miller</a>, University Distinguished Professor, Northeastern University; CERC Chair of Data Intelligence, University of Waterloo</li>
-				</ul>
+				</ul>-->
 				<br/>
 
-				<h2>Industry Panel</h2>
-				<p>This year, we will also be pioneering an industry panel designed to foster meaningful discussions between industry leaders and researchers on the optimization and application of Large Language Models (LLMs) in the tech industry. Our panelists include:</p>
-				<ul>
-					<li><a href="https://lunadong.com/">Xin Luna Dong</a>, Principal Scientist, Meta Reality Labs</li>
-					<li><a href="https://hkotek.com/">Hadas Kotek</a>, Senior Data Scientist, Apple</li>
-					<li><a href="https://people.csail.mit.edu/kraska/">Tim Kraska</a>, Associate Professor, MIT; Director of Applied Science, AWS</li>
-					<li><a href="https://techsysinfra.google/research/srg-staff/fatma-ozcan/">Fatma Ozcan</a>, Principal Engineer, Systems Research@Google</li>
-					<li><a href="https://www.microsoft.com/en-us/research/people/raghu/">Raghu Ramakrishnan</a>, Technical Fellow and CTO for Data, Microsoft</li>
-				</ul>
 			</div>
 		</section>
 
@@ -124,7 +114,7 @@
 						</tr>
 						<tr>
 							<td>8:35</td>
-							<td class="keynote">Keynote by Tim Kraska: <a href="">🎥</a> ML and Generative AI is reshaping the entire data service industry, but what should academia do?</td>
+							<td class="keynote">Keynote by Tim Kraska: ML and Generative AI is reshaping the entire data service industry, but what should academia do?</td>
 						</tr>
 						<tr style="border-top: 1px solid #0e89da;">
 
@@ -152,6 +142,11 @@
 								Towards Extending XAI for Full Data Science Pipelines</span>
 								<br><span class="authors">Nadja Geisler, Carsten Binnig</span>
 							</td>
+						</tr>
+						<tr>
+							<td>10:00</td>
+							<td class="break">Break</td>
+
 						</tr>
 						<tr style="border-top: 1px solid #0e89da;">
 						<tr>
@@ -184,8 +179,6 @@
 								<br>
 							</td>
 						</tr>
-						<tr style="border-top: 1px solid #0e89da;">
-
 						<tr>
 							<td>12:00</td>
 							<td class="break">Lunch Break</td>
@@ -248,6 +241,11 @@
 								<br><span class="authors">Pratik Pokharel, Juseung Lee, Oliver Kennedy, Jeff Good, Marianthi Markatou, Andrew Talal, Raktim Mukhopadhyay </span>
 							</td>
 						</tr>
+						<tr>
+							<td>15:30</td>
+							<td class="break">Break</td>
+
+						</tr>
 
 						<tr style="border-top: 1px solid #0e89da;">
 
@@ -255,7 +253,7 @@
 								<td></td><td><b>Session Chair:</b> Roee Shraga </td>
 								<tr>
 							<td>16:00</td>
-							<td class="keynote">Keynote by Renée Miller: <a href="">🎥</a> TBD</td>
+							<td class="keynote">Keynote by Renée Miller: TBD</td>
 						</tr>
 							</tr>
 
@@ -287,6 +285,73 @@
 						</tr>
 					</tbody>
 				</table>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+
+  				<h2>HILDA 2024 Keynote Talks</h2>
+				<p>Our exciting program will feature the following invited keynote speakers to talk about the challenges of human-data interaction.</p>
+
+				<table> 
+					<tr>
+						<td class="image-cell">
+							<p><img src="img/timkraska.jpeg" alt="Tim Kraska" style="width:150px"></p>
+							<p><b><a href="https://people.csail.mit.edu/kraska/">Tim Kraska</a></b>, Associate Professor, MIT; Director of Applied Science, AWS</p>
+						</td>
+						<td>
+							<p><b>Title:</b> ML and Generative AI is reshaping the entire data service industry, but what should academia do?</p>
+							<p><b>Abstract:</b> Machine learning (ML) and Generative AI (GAI)  is changing the way we build, operate, and use data systems. For example, ML-enhanced algorithms, such as learned scheduling algorithms and indexes/storage layouts are being deployed in commercial data services, GAI-code assistant help to more quickly develop features, ML-based techniques simplify operations by automatically tuning system knobs, and GenAI-based assistants help to debug operational issues. Most importantly though, Generative AI is reshaping the way users interact with data systems. Even today, all leading cloud providers already offer natural language to SQL (NL2SQL) features as part of their Python Notebook or SQL editors to increase the productivity of analysts. Business-line users are starting to use natural language as part of their visualization platforms or enterprise search, whereas application developers are exploring new ways to expose (structured) data as part of their GAI-based experiences using RAG and other techniques. Some even go so far and say that "English will become the new SQL'' despite the obvious challenges that English is often more ambiguous.<br>
+							Arguably, industry is leading many of these efforts and they are happening at unprecedented speed - almost every week there is a new product announcement. Yet, a lot of the work feels ad-hoc and  many challenges remain to make ML/GAI for systems in all these areas really practical despite all the product announcements. In this talk I will provide an overview of some of these recent developments and outline how the academic solution often differs from the ones deployed in industry.  Finally, I will list several opportunities for academia to not only contribute but also build a better, more grounded foundation. </p>
+						</td>
+					</tr>
+					<tr>
+					<td class="image-cell">
+							<p><img src="img/renee_0.webp" alt="Renée Miller" style="width:150px"></p>
+							<p><b><a href="https://www.khoury.northeastern.edu/people/renee-miller/">Renée Miller</a></b>, University Distinguished Professor, Northeastern University; CERC Chair of Data Intelligence, University of Waterloo</p>
+						</td>
+						<td>
+							<p><b>Title:</b> TBA </p>
+							<p><b>Abstract:</b> TBA </p>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+
+  				<h2>HILDA 2024 Industry Panel</h2>
+				<p>This year, we will also be pioneering an industry panel designed to foster meaningful discussions between industry leaders and researchers on the optimization and application of Large Language Models (LLMs) in the tech industry. Our panelists include:</p>
+
+				<table> 
+					<tr>
+						<td class="image-cell">
+							<p><img src="img/lunadong.jpeg" alt="Luna Dong" style="width:150px"></p>
+							<p><b><a href="https://lunadong.com/">Xin Luna Dong</a></b><br>Principal Scientist,<br> Meta Reality Labs</p>
+						</td>
+						<td class="image-cell">
+							<p><img src="img/hadaskotek.jpeg" alt="Hadas Kotek" style="width:150px"></p>
+							<p><b><a href="https://hkotek.com/">Hadas Kotek</a></b><br> Senior Data Scientist,<br> Apple</p>
+						</td>
+						<td class="image-cell">
+							<p><img src="img/timkraska.jpeg" alt="Tim Kraska" style="width:150px"></p>
+							<p><b><a href="https://people.csail.mit.edu/kraska/">Tim Kraska</a></b><br>Director of Applied Science, AWS</p>
+						</td>
+						<td class="image-cell">
+							<p><img src="img/FatmaOzcan.png" alt="Fatma Ozcan" style="width:150px"></p>
+							<p><b><a href="https://techsysinfra.google/research/srg-staff/fatma-ozcan/">Fatma Ozcan</a></b><br>Principal Engineer, Systems Research@Google</p>
+						</td>
+						<td class="image-cell">
+							<p><img src="img/ramakrishnan_raghu.jpeg" alt="Raghu Ramakrishnan" style="width:150px"></p>
+							<p><b><a href="https://www.microsoft.com/en-us/research/people/raghu/">Raghu Ramakrishnan</a></b><br>Technical Fellow and CTO for Data, Microsoft</p>
+						</td>
+					</tr>
+				</table>
+				
 			</div>
 		</section>
 
