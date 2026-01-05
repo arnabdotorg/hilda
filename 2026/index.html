@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<title>HILDA 2026: Workshop on Human-In-the-Loop Data Analytics</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	if (!window.jQuery)
+	{
+	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
+	}
+	</script>
+	<style>
+    table { width: 100%; }
+    td { vertical-align: top; }
+    .image-cell { width: 170px; }
+    img { border:1px solid black; width: 100%; }
+    </style>
+
+
+</head>
+<body>
+	<header>
+		<div id="logo-container">
+			<div id="logo"><a href="/">HILDA 2026</a></div>
+			<div id="subtitle">Workshop on Human-In-the-Loop Data Analytics</div>
+			<div>Co-located with <a href="https://2026.sigmod.org/">SIGMOD 2026</a> (31 May 2026, Bengaluru, India)</div>
+	    	<br/>
+			<div>
+                <a href="https://twitter.com/hildaworkshop?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hildaworkshop</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <!--<a href="https://twitter.com/intent/tweet?button_hashtag=hilda2024&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false" data-size="large">Tweet #hilda2024</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+            </div>
+
+			<br/>
+			<b>Location:</b> TBD
+			<br/><br/>Past workshops: <a href="http://hilda.io/2025">HILDA 2025</a> | <a href="http://hilda.io/2024">HILDA 2024</a> |<a href="http://hilda.io/2023">HILDA 2023</a> | <a href="http://hilda.io/2022">HILDA 2022</a> | <a href="http://hilda.io/2020">HILDA 2020</a> | <a href="http://hilda.io/2019">HILDA 2019</a> | <a href="http://hilda.io/2018">HILDA 2018</a></strong> | <a href="http://hilda.io/2017">HILDA 2017 | <a href="http://hilda.io/2016">HILDA 2016</a>
+		</div>
+
+
+	</header>
+
+	<div id="content">
+
+		<section class="row">
+			<div class="col-full">
+				<p>
+
+					HILDA brings together researchers and practitioners to
+					exchange ideas and results on <b>human-data interaction</b>. It explores
+					how data management and analysis can be made more effective when taking
+					into account the people who design and build these processes as well as
+					those who are impacted by their results.
+					
+				</p>
+				<!-- <p>
+					In HILDA 2022, we implemented a <b>mentoring program</b> (inspired by workshops such as <a href="https://2021.plateau-workshop.org">PLATEAU</a>) and are continuing it this year. Our focus is on promising and early-stage research, with a core component of the program being that each paper is assigned a <b>mentor</b>. More details on the process are below.
+				</p>
+				<p>
+					The theme for this edition of the workshop is <b>HILDA and Large Language Models (LLMs)</b>, however, the workshop is not limited to this theme and other topics are also of interest. We encourage research on guidelines and best practices for effective human-LLM collaboration. We also encourage research that questions the role of humans in traditional data pipelines with the emergence of LLMs.
+				</p> -->
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+				<h2>Program</h2>
+				<p>
+					The schedule is not finalized and may change. Please check it again closer to the event.
+				</p>
+
+				<style>
+					th, td {
+						padding: 5px;
+					}
+					.keynote{
+						border-top: 0px solid #2a272a;
+						font-weight: bolder;
+					}
+					.panel{
+						font-weight: bolder;
+					}
+					.break{
+						font-style: italic;
+						color: #2a272a;
+					}
+					.paper{
+						font-weight: bolder;
+					}
+					.authors{
+						font-style: italic;
+						font-size: smaller;
+						width: 50em
+					}
+					.speakers{
+						font-size: smaller;
+					}
+				</style>
+
+				<!-- <table>
+					<tbody>
+						<tr>
+							<td>8:45</td>
+							<td>Welcome and Setup</td>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td class="keynote">Keynote by Eugene Wu: A Decade of Systems for Human Data Interaction</td>
+						</tr>
+						<tr style="border-top: 1px solid #0e89da;">
+
+						<tr>
+							<td></td><td><b>Session Chair: </b>Kexin Rong</td>
+						</tr>
+
+						<tr>
+							<td>10:00</td>
+							<td><span class="paper">
+								Challenges in Using Conversational AI for Data Science</span>
+								<br><span class="authors">Bhavya Chopra (University of California Berkeley), Ananya Singha (Microsoft), Anna Fariha (University of Utah), Sumit Gulwani (Microsoft), Chris Parnin (Microsoft), Ashish Tiwari (Microsoft), Austin Z Henley (Carnegie Mellon University)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>10:15</td>
+							<td><span class="paper">
+								From Precision to Perception: User Surveys in the Evaluation of Keyword Extraction Algorithms</span>
+								<br><span class="authors">Jingwen Cai (Umeå University), Sara Leckner (Malmö University), Johanna Björklund (Umeå University)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>10:30</td>
+							<td class="break">Coffee Break</td>
+
+						</tr>
+
+						<tr style="border-top: 1px solid #0e89da;">
+						<tr>
+							<td></td><td><b>Session Chair:</b> Kexin Rong </td>
+						<tr>
+							<td>11:00</td>
+							<td><span class="paper">
+								ONION: A Multi-Layered Framework for Participatory ER Design</span>
+								<br><span class="authors">Viktoriia Makovska (Ukrainian Catholic University), George Fletcher (Eindhoven University of Technology), Julia Stoyanovich (New York University)</span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>11:15</td>
+							<td><span class="paper">
+								CREDAL: Close Reading of Data Models</span>
+								<br><span class="authors">George Fletcher (Eindhoven University of Technology), Olha Nahurna (Ukrainian Catholic University), Matvii Prytula ( Ukrainian Catholic University), Julia Stoyanovich (New York University)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td><span class="paper">
+								Hierarchical Table Semantics for Exploratory Table Discovery</span>
+								<br><span class="authors">Grace Fan (New York University), Juliana Freire (New York University)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>11:45</td>
+							<td><span class="paper">Humans, Machine Learning, and Language Models in Union: A Cognitive Study on Table Unionability</span>
+
+								<br><span class="authors">Sreeram Marimuthu (Worcester Polytechnic Institute), Nina Klimenkova (Worcester Polytechnic Institute), Roee Shraga (Worcester Polytechnic Institute)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td><span class="paper">
+								From Similarities to Insights: Approaching Time Series Integration from a User Perspective</span>
+								<br><span class="authors">Lucas Weber (Friedrich-Alexander-Universität Erlangen-Nürnberg), Richard Lenz ( Friedrich-Alexander-Universität Erlangen-Nürnberg)</span>
+							</td>
+						</tr>
+
+
+
+						<tr>
+							<td>12:30</td>
+							<td class="break">Lunch Break</td>
+
+						</tr>
+
+						<tr style="border-top: 1px solid #0e89da;">
+
+				<tr style="border-top: 1px solid #0e89da;">
+
+							<tr>
+
+							<tr>
+							<td>13:30</td>
+							<td class="keynote">Keynote by Arnab Nandi: From Interactive Analytics to Vibe Querying: a Decade of HILDA</td>
+						    </tr>
+						    <td></td><td><b>Session Chair:</b> Roee Shraga </td>
+							</tr>
+
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td><span class="paper">
+								Bootstrapping Compositional Video Query Synthesis with Natural Language and Previous Queries from Users</span>
+								<br><span class="authors">Manasi Ganti (University of Washington Seattle), Enhao Zhang (University of Washington Seattle), Magdalena Balazinska (University of Washington Seattle)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>14:45</td>
+							<td><span class="paper">
+								Utilizing Past User Feedback for More Accurate Text-to-SQL</span>
+								<br><span class="authors">Matthias Urban (Technical University of Darmstadt), Jialin Ding (Amazon Web Services), David Kernert (STACKIT), Kapil Eknath Vaidya (Parallel Web Systems), Tim Kraska (Amazon Web Services)</span>
+							</td>
+						</tr>
+						<tr>
+							<td>15:00</td>
+							<td class="break">Coffee Break</td>
+
+						</tr>
+
+				<tr style="border-top: 1px solid #0e89da;">
+
+
+            	<tr>
+					<td></td><td><b>Session Chair:</b> Roee Shraga </td>
+					</tr>
+
+						</tr>
+
+						<tr>
+							<td>15:30</td>
+							<td><span class="paper">
+								Toward Scalable Human-in-the-Loop Annotation Error Detection with Label Noise-Aware Training</span>
+								<br><span class="authors">Shubham Malaviya (TCS Research), Manish Shukla (TCS Research), Sachin Lodha (TCS Research)</span>
+							</td>
+
+						</tr>
+						<tr>
+							<td>15:45</td>
+							<td><span class="paper">
+								Emojis in Autocompletion: Enhancing Video Search with Visual Cues</span>
+								<br><span class="authors">Hojin Yoo (The Ohio State University), Arnab Nandi (The Ohio State University)</span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>16:00</td>
+							<td><span class="paper">
+								Responsive Retrieval of Consistent States in Pipelined Executions of Dataflows</span>
+								<br><span class="authors">Shengquan Ni (UC Irvine), Chen Li (UC Irvine)</span>
+							</td>
+
+						</tr>
+
+						<tr>
+							<td>16:15</td>
+							<td><span class="paper">
+								Explanations for Machine Learning Pipelines under Data Drift</span>
+								<br><span class="authors">Jahid Hasan (Purdue University), Romila Pradhan (Purdue University)</span>
+							</td>
+
+						</tr>
+
+
+						<tr>
+							<td>16:30</td>
+							<td><span class="paper">Interactive Coreset Selection for Tabular Data: Fairness-Aware, Explainable, and User-Guided</span>
+								<br><span class="authors">Aviv Hadar (Tel Aviv University), Tova Milo (Tel Aviv University), Kathy Razmadze (Tel Aviv University)</span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>16:45</td>
+							<td>Closing Remarks</td>
+						</tr>
+
+
+					</tbody>
+				</table> -->
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+
+  				<h2>HILDA 2026 Keynote Talks</h2>
+				<p>Our exciting program will feature the following invited keynote speakers to talk about the challenges of human-data interaction.</p>
+
+				<!-- <table>
+					<tr>
+						<td class="image-cell">
+							<p><img src="img/eugene.jpeg" alt="Eugene Wu" style="width:150px"></p>
+
+							<p><b><a href="https://www.cs.columbia.edu/~ewu/">Eugene Wu</a></b>: Associate Professor, Columbia University</p>
+						</td>
+						<td>
+							<p><b>Title:</b> A Decade of Systems for Human Data Interaction</p>
+							<p class="speakers"><b>Speaker Bio:</b>Eugene Wu is an associate professor of computer science at Columbia University. He is broadly interested in technologies that help users play with their data. His goal is for users at all technical levels to effectively and quickly make sense of their information. He is interested in solutions that ultimately improve the interface between users and data, and uses techniques borrowed from fields such as data management, systems, crowd sourcing, visualization, and HCI. Eugene Wu received his Ph.D. from MIT, B.S. from Cal, and was a postdoc in the AMPLab. A profile, an obit.<br>
+							Eugene Wu has received the VLDB 2018 10-year test of time award, best-of-conference citations at ICDE and VLDB, the SIGMOD 2016 best demo award, the NSF CAREER, and the Google, Adobe, and Amazon faculty awards.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="image-cell">
+							<p><img src="img/arnab.jpg" alt="Arnab Nandi" style="width:150px"></p>
+
+							<p><b><a href="https://arnab.org/">Arnab Nandi</a></b>: Professor, The Ohio State University</p>
+						</td>
+						<td>
+							<p><b>Title:</b>From Interactive Analytics to Vibe Querying: a Decade of HILDA</p>
+							<p class="speakers"><b>Speaker Bio:</b> How do we help humans work with data better, faster, and more effectively? Arnab's work focuses on bridging human interaction and data infrastructure, spanning areas of database systems, human-in-the-loop data analytics, and next-generation query interfaces. Arnab is a recipient of the US National Science Foundation's CAREER Award, a Google Faculty Research Award, and IEEE's TCDE Early Career Award for his contributions towards user-focused data interaction. Closer to home, Arnab received the University's Alumni Award for Distinguished Teaching, and the Early Career Innovator of the Year Award, and was also listed as Columbus Business First's "40 under 40". At Ohio State, he co-founded the OHI/O Program, that fosters a tech culture through hackathons and informal learning, and The STEAM Factory, an interdisciplinary research and collaboration network. Most recently, Arnab was founder and CEO of Mobikit, a connected vehicles data analytics startup that was acquired by Azuga Inc., a Bridgestone company. Arnab is an ACM Distinguished Member and holds a PhD in Computer Science & Engineering from the University of Michigan.</p>
+						</td>
+					</tr>
+				</table> --> 
+				
+			</div>
+		</section>
+
+
+		<section class="row">
+			<div class="col-full">
+				<h2>What to submit</h2>
+					<p>
+
+						We encourage both standard research papers and more
+						unusual works—for instance papers that describe in-progress work, reports
+						on experiences, question accepted wisdom, raise open problems, or propose
+						speculative new approaches. A HILDA submission should describe <i>work or
+						perspectives</i> that will lead to interesting discussions at the
+						workshop or that the authors want feedback on.
+						
+					</p>
+
+					<p>We welcome work that proposes innovations in design to improve the way people can work with data management systems, as well as work that studies empirically how humans interact with existing systems. We welcome research that comes from the traditions of the database systems community, and also reports on industry activities, and research on data topics from communities that study people and organizations. A sample of topics that are in the spirit of this workshop include, but are not limited to:
+					<ul class="topics">
+						<li>novel query interfaces,</li>
+						<li>interactive query refinement,</li>
+						<li>data exploration and analysis,</li>
+						<li>data visualization,</li>
+						<li>human-assisted data integration and cleaning,</li>
+						<li>perception-aware data processing,</li>
+						<li>database systems designed for highly interactive use cases,</li>
+						<li>empirical studies of database use,</li>
+						<li>evaluating and ensuring fairness in data-driven decision making processes,</li>
+						<li>understanding the outcomes of processes through provenance and explanations,</li>
+						<li>interactive debugging of complex data systems,</li>
+						<li>crowd-powered data infrastructure, etc.</li>
+					</ul>
+					</p>
+
+					<p>Submissions can also examine any of the above topics from an application or domain perspective.</p>
+
+					<p>
+						HILDA is a forum where people from multiple communities engage with one another's ideas. We are keen to have submissions that present initial ideas and visions, just as much as reports on early results, or reflections on completed projects.
+					</p>
+					<p>
+						The workshop will focus on discussion and interaction, rather than static presentations of what is in the paper.
+					</p>
+			</div>
+		</section>
+
+
+		<section class="row">
+			<div class="col-full">
+				<h2>Review and Mentorship Process</h2>
+				<p>
+					HILDA reviews are single blind. All submitted papers will be reviewed by at least three reviewers who will determine the fit of the work for HILDA's unique mentorship process this year, the quality of the work, and its potential for future research. 
+				</p>
+				<p>
+					Every accepted paper will be assigned a mentor who will engage with the authors providing constructive feedback through one-on-one, virtual, discussions. We hope that the authors will work closely with their mentors to improve the substance and direction of their work.
+				</p>
+				<p>
+					Authors and mentors can withdraw without repercussions due to unforeseen conflicts. In such situations, the program chairs will try to find another suitable mentor.
+				</p>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+				<h2>Submission</h2>
+
+				<p>
+					TBD
+					<!-- Authors are invited to submit papers between four and six pages in length excluding references and using the standard SIGMOD paper formatting template Submissions should reflect the current state of the research work but also include a section on limitations and challenges that they wish to receive feedback from their mentors and the HILDA community on. -->
+				</p>
+
+
+	<!-- <p>We are following SIGMOD 2026 submission format, i.e., 2-column ACM Proceedings Format, using either the sample-sigconf.tex or Interim layout.docx template provided at <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a> for LaTeX (version 2e) or Word, respectively. If you plan to use ACM's official Overleaf template, please use the 2-column template available at <a href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty">https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty</a>.  </p> -->
+
+	<p>Submission website: <a href="https://cmt3.research.microsoft.com/HILDA2026/">https://cmt3.research.microsoft.com/HILDA2026</a></p>
+
+		<section class="row">
+			<div class="col">
+
+				<h2>Proceedings</h2>
+				<p><ul>We will provide links to accepted papers in the program here as well as publish them for a year through the ACM DL.</ul>
+				</p><br/>
+
+				<h2>Important Dates</h2>
+				<p>
+				<ul>
+				<li>Workshop Date: TBD</li>
+				<li>Submission: TBD</li>
+				<li>Notification of outcome: TBD</li>
+				<li>Camera-ready due: TBD</li>
+				</ul>
+				</p>
+
+			</div>
+
+			<div class="col">
+			    <h2>Workshop Chairs</h2>
+			    <p>
+					<ul>
+						<li><a href="https://kexinrong.github.io/">Kexin Rong</a> (Georgia Institute of Technology) </li>
+						<li><a href="https://www.vidyasetlur.com/">Vidya Setlur</a> (Tableau) </li>
+						<li><a href="https://afariha.github.io/">Anna Fariha</a> (University of Utah) </li>
+					</ul>
+				</p>
+					
+				<!-- <h2>Mentors</h2>
+				<p>
+					<ul>
+						<li>Aamod Khatiwada (Microsoft)</li>
+						<li>Andra-Denis Ionescu (KTH)</li>
+						<li>Avigdor Gal (Technion - Israel Institute of Technology)</li>
+						<li>Bar	Genossar (Technion - Israel Institute of Technology)</li>
+						<li>Brit Youngmann (Technion - Israel Institute of Technology)</li>
+						<li>Danyel Fisher (Independent Consultant)</li>
+						<li>Fatemeh	Nargesian (University of Rochester)</li>
+						<li>Gerardo	Vitagliano (MIT CSAIL)</li>
+						<li>Grace Fan (Northeastern)</li>
+						<li>Jean-Daniel Fekete (Inria)</li>
+						<li>Kanit Wongsuphasawat (Databricks)</li>
+						<li>Kaustav Bhattacharjee (NJIT)</li>
+						<li>Madelon Hulsebos (CWI)</li>
+						<li>Sainyam Galhotra (Cornell University)</li>
+						<li>Slava Novgorodov (Tel Aviv University)</li>
+						<li>Stavros	Sintos (University of Illinois Chicago)</li>
+						<li>Tiziana Catarci (University of Rome "La Sapienza")</li>
+						<li>Yash Govind (Informatica)</li>
+						<li>Zhengjie Miao (Simon Fraser University)</li>
+  			 		</ul>
+  			 	</p> -->
+
+				<!-- <h2>Steering Committee</h2>
+				<p>
+					<ul>
+						<li>Carsten Binnig (TU Darmstadt)</li>
+						<li>Juliana Freire (New York University)</li>
+						<li>Aditya Parameswaran (University of California, Berkeley)</li>
+						<li>Arnab Nandi (The Ohio State University)</li>
+  			 </ul></p> -->
+
+
+			</p>
+			</div>
+
+		</section>
+
+
+<style>
+  p.session {
+    margin-top: 1em;
+  }
+  span.time {
+    width: 15ex;
+    text-align: left;
+  }
+  span.authors {
+    font-size: smaller;
+  }
+  span.title {
+    font-weight: bold;
+  }
+  span.toggle {
+    font-size: 10pt;
+    display: block;
+    cursor: pointer;
+  }
+  span.toggle:hover {
+    text-decoration: underline;
+  }
+  span.abstract {
+  }
+</style>
+
+  	<section class="row">
+
+			<div class="col">
+				<h2>Contact</h2>
+				<p>
+					For questions, please email the workshop chairs directly.
+				</p>
+			</div>
+			<div class="col">
+				<h2>Follow us</h2>
+				<p>
+					Join us on <a href="http://twitter.com/hildaworkshop">Twitter</a>.
+				</p>
+			</div>
+		</section>
+
+
+	</div>
+
+	<script src="js/vendor/jquery.fluidbox.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-67595208-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+</html>
+
+<!-- © 2014 - Based on free website template by <a href="http://www.pixelsbyrick.com">Rick Waalders</a> -->
