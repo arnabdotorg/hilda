@@ -283,7 +283,7 @@ a {
 }
 a:hover {
   color: red;
-  border-color: #6868ab;
+  border-color: #ab6868;
 }
 a:active, a:focus {
   color: #c2c2b5;
@@ -332,11 +332,11 @@ body {
 }
 
 a {
-  border-bottom: 1px solid #6868ab;
+  border-bottom: 1px solid #ab6868;
 }
 
 a:hover {
-  color: #6868ab;
+  color: #ab6868;
 }
 
 header {
@@ -344,7 +344,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
-  border-top: 2px solid #6868ab;
+  border-top: 2px solid #ab6868;
   opacity: 0;
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
@@ -397,22 +397,22 @@ header #logo-container #logo {
   float: none;
 }
 header #logo-container #subtitle {
-  color: #6868ab;
+  color: #ab6868;
   font-weight: bold;
   font-size: 18px;
 }
 header a {
-  color: #6868ab;
+  color: #ab6868;
   text-decoration: none;
   border: none;
 }
 header a:hover {
-  color: #6868ab;
-  border-color: #6868ab;
+  color: #ab6868;
+  border-color: #ab6868;
 }
 header a:active, header a:focus {
-  color: #6868ab;
-  border-color: #6868ab;
+  color: #ab6868;
+  border-color: #ab6868;
 }
 header nav {
   text-align: right;
@@ -459,7 +459,7 @@ header nav ul li a.bordered {
   padding: 0.4em;
   padding-left: 0.8em;
   padding-right: 0.8em;
-  border: 2px solid #6868ab;
+  border: 2px solid #ab6868;
 }
 
 #content {
@@ -543,9 +543,9 @@ header nav ul li a.bordered {
 }
 #content section.row h2 {
   text-transform: uppercase;
-  font-size: 1.0em;
+  font-size: 1.4em;
   font-weight: bold;
-  color: #6868ab;
+  color: #ab6868;
   margin-bottom: 0.05em;
   margin-top: 0.5em;	
 }
@@ -667,7 +667,7 @@ header nav ul li a.bordered {
 
 .topics li::before{
   content: "\25CF";
-  color: #6868ab; /* Change the color */
+  color: #ab6868; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.2em; /* Also needed for space (tweak if needed) */
