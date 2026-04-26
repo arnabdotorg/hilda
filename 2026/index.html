@@ -82,210 +82,150 @@
 				</div> 
 				
 			<div class="col-full">
-				<h2>Program</h2>
-				<p>
-					The schedule is not finalized yet. Please check closer to the event.
-				</p>
-
+				<h2>Program (Tentative)</h2>
 				<style>
-					th, td {
-						padding: 5px;
-					}
-					.keynote{
-						border-top: 0px solid #2a272a;
-						font-weight: bolder;
-					}
-					.panel{
-						font-weight: bolder;
-					}
-					.break{
-						font-style: italic;
-						color: #2a272a;
-					}
-					.paper{
-						font-weight: bolder;
-					}
-					.authors{
-						font-style: italic;
-						font-size: smaller;
-						width: 50em
-					}
-					.speakers{
-						font-size: smaller;
-					}
+				  table.schedule {
+				    border-collapse: collapse;
+				    width: 100%;
+				  }
+				  	
+				  .schedule th, 
+				  .schedule td {
+				    padding: 8px 10px;
+				    text-align: left;
+				    vertical-align: top;
+				  }
+				  
+				  .schedule td {
+				    padding: 8px 10px;
+				    vertical-align: top;
+				  }
+
+				  /* 1st column (Time) */
+				  .schedule td:nth-child(1) {
+				    text-align: right;
+				    white-space: nowrap;
+				    width: 90px;
+				    font-weight: 500;
+				  }
+
+				  /* 2nd column (Session) */
+				  .schedule td:nth-child(2) {
+				    text-align: left;
+				    width: 1500px;
+				  }
+
+				  /* 3rd column (Title + Authors) */
+				  .schedule td:nth-child(3) {
+				    text-align: left;
+				    width: 600px;
+				  }
+
+				  .schedule th {
+				    border-bottom: 2px solid #2a272a;
+				  }
+
+				  .keynote {
+				    font-weight: bold;
+				  }
 				</style>
-
-				<!-- <table>
-					<tbody>
-						<tr>
-							<td>8:45</td>
-							<td>Welcome and Setup</td>
+					<table class="schedule">					  
+					  <tbody>
+					    <tr>
+					      <td class="time">8:45 AM</td>
+					      <td>Welcome and Setup</td>
+					      <td>Kexin Rong (Georgia Tech)</td>
+					    </tr>					
+						<tr style="border-bottom: 1px solid #ddd;">
+						  <td>9:00 AM</td>
+						  <td class="keynote">Keynote by Shailesh Kumar: TBD </td>
+						  <td></td>
 						</tr>
+						
 						<tr>
-							<td>9:00</td>
-							<td class="keynote">Keynote by Shailesh Kumar: TBD</td>
-						</tr>
-						<tr style="border-top: 1px solid #0e89da;">
-
-						<tr>
-							<td></td><td><b>Session Chair: </b>TBD</td>
-						</tr>
-
-						<tr>
-							<td>10:00</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>10:15</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>10:30</td>
-							<td class="break">Coffee Break</td>
-
-						</tr>
-
-						<tr style="border-top: 1px solid #0e89da;">
-						<tr>
-							<td></td><td><b>Session Chair: </b>TBD</td>
-						<tr>
-							<td>11:00</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>10:00 AM</td>
+						  <td class="keynote">Towards More Realistic Natural Language Queries in Text-to-SQL Benchmarks</td>
+						  <td>Charlotte Dörschner (TU Darmstadt)</td>
 						</tr>
 
 						<tr>
-							<td>11:15</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>10:15 AM</td>
+						  <td class="keynote">FlowPilot: A Suggestion System for Designing Scientific Workflows</td>
+						  <td>Mahdi Esmailoghli (HU Berlin)</td>
 						</tr>
+											
+						<tr style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;padding-top:300px">
+						  <td>10:30 AM</td>
+						  <td style="font-style:italic; text-align: center;" colspan=2>Coffee Break</td>
+						</tr>
+						
 						<tr>
-							<td>11:30</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>11:00 AM</td>
+						  <td class="keynote">AURA: Agentic AI for Unified Reliability Modeling and Annotation Aggregation</td>
+						  <td>Subhodeep Ghosh (NJIT)</td>
 						</tr>
+						
 						<tr>
-							<td>11:45</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>11:15 AM</td>
+						  <td class="keynote">LakeAgents: An LLM-Based Multi-Agent Framework for Tabular Data Augmentation</td>
+						  <td>Fatemeh Nargesian (U of Rochester)</td>
 						</tr>
+						
 						<tr>
-							<td>12:00</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>11:30 AM</td>
+						  <td class="keynote">SmartRabbit: An Interactive Query Processor</td>
+						  <td>Pratyoy Das (UC Irvine)</td>
 						</tr>
-
-
-
+											
+						<tr style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;">
+						  <td>12:30 PM</td>
+						  <td style="font-style:italic; text-align: center;" colspan=2>Lunch Break</td>
+						</tr>
+					
 						<tr>
-							<td>12:30</td>
-							<td class="break">Lunch Break</td>
-
+						  <td>1:30 PM</td>
+						  <td class="keynote" colspan=2>Keynote by Aditya Parameswaran: Reimagining the Role of Humans in LLM-Powered Data Systems</td>
 						</tr>
-
-						<tr style="border-top: 1px solid #0e89da;">
-
-				<tr style="border-top: 1px solid #0e89da;">
-
-							<tr>
-
-							<tr>
-							<td>13:30</td>
-							<td class="keynote">Keynote by Aditya Parameswaran: TBD</td>
-						    </tr>
-						    <td></td><td><b>Session Chair: </b>TBD</td>
-							</tr>
-
-						</tr>
+						
 						<tr>
-							<td>14:30</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>2:30 PM</td>
+						  <td class="keynote">Increment: Scented Navigation for Incremental Knowledge Graph Query Construction</td>
+						  <td>Fatemeh Nargesian (U of Rochester)</td>
 						</tr>
+						
 						<tr>
-							<td>14:45</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>2:45 PM</td>
+						  <td class="keynote">Data-Semantics-Aware Recommendation of Diverse Pivot Tables</td>
+						  <td>Whanhee Cho (U of Utah)</td>
 						</tr>
+						
+						<tr style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;">
+						  <td>3:00 PM</td>
+						  <td style="font-style:italic; text-align: center;" colspan=2>Coffee Break</td>
+						</tr>
+						
 						<tr>
-							<td>15:00</td>
-							<td class="break">Coffee Break</td>
-
+						  <td>3:30 PM</td>
+						  <td class="keynote">MoveMAS: Enhanced Human Mobility Prediction with Spatially-Aware via LLM-based Multi-Agent Systems</td>
+						  <td>Roee Shraga (WPI)</td>
 						</tr>
-
-				<tr style="border-top: 1px solid #0e89da;">
-
-
-            	<tr>
-					<td></td><td><b>Session Chair: </b>TBD</td>
-					</tr>
-
-						</tr>
-
+						
 						<tr>
-							<td>15:30</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-
+						  <td>3:45 PM</td>
+						  <td class="keynote">Interpretable Attribute Discretization</td>
+						  <td>Eugenie Lai (MIT)</td>
 						</tr>
+					
 						<tr>
-							<td>15:45</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
+						  <td>4:00 PM</td>
+						  <td>Closing Remarks</td>
+						  <td>Vidya Setlur (Tableau Research)</td>
 						</tr>
+					
+					  </tbody>
+					</table>
 
-						<tr>
-							<td>16:00</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-
-						</tr>
-
-						<tr>
-							<td>16:15</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-
-						</tr>
-
-
-						<tr>
-							<td>16:30</td>
-							<td><span class="paper"></span>
-								<br><span class="authors"></span>
-							</td>
-						</tr>
-
-						<tr>
-							<td>16:45</td>
-							<td>Closing Remarks</td>
-						</tr>
-
-
-					</tbody>
-				</table> -->
 			</div>
-			
-			
-			
-			
-			
-			
 			
 			<div class="col-full">
 
@@ -300,12 +240,11 @@
 						<td class="image-cell" style="width:400px">
 							<p><img src="https://people.eecs.berkeley.edu/~adityagp/images/IMG_0331-corrected-small.jpg" alt="Aditya Parameswaran" style="width:400px"></p>
 						</td>
-						<td>
+						<td style="padding-left:20px;">
 							<p><b>Title: </b>Reimagining the Role of Humans in LLM-Powered Data Systems</p>
 							<p><b><a target="_blank" href="http://adityagp.net">Aditya Parameswaran</a></b>, Associate Professor, University of California, Berkeley</p>
 
-							<p class="speakers"
-							style="font-size:1em"><b>Speaker Bio:</b> Aditya Parameswaran is an
+							<p class="speakers" style="font-size:1em;"><b>Speaker Bio:</b> Aditya Parameswaran is an
 							Associate Professor in Computer Science at UC Berkeley, and a
 							co-director of the EPIC Data Lab. Aditya has published 100+ papers in
 							top-tier venues in data management, human-computer interaction, and
@@ -328,7 +267,7 @@
 						<td class="image-cell" style="width:400px">
 							<p><img src="img/shailesh.png" alt="Shailesh Kumar" style="width:400px"></p>
 						</td>
-						<td>
+						<td style="padding-left:20px;">
 							<p><b>Title:</b> TBD</p>
 							<p><b><a target="_blank" href="https://www.jioinstitute.edu.in/faculty/dr-shailesh-kumar">Shailesh Kumar</a></b>, Dean, Jio Institute Chief Data Scientist, Center of Excellence in AI/ML, Jio Platforms</p>
 
